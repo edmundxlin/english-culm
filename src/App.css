@@ -1,38 +1,137 @@
 .App {
-  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+
+}
+.App h2{
+  font-size: 3vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Frankenstein {
+  display:inline-block ;
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 20vh;
+  height: 10vh;
+  width: 15vw;
+  border-radius: 5px;
+  padding: 0.5vw;
+  text-align: right;
+  background-color: white;
+  transition: 0.5s ease;
+}
+#MonsterText{
+  visibility: hidden;
+  font-size: 0.8vw;
+ 
+  transition: 1s, ease;
+}
+#fText{
+  visibility: hidden;
+}
+#Frankenstein:hover #fText{
+  visibility: visible;
+}
+#Frankenstein:hover ~ #Monster{
+
+  margin-left: 50vw;
+  margin-top: 20vh;
+  height: 20vh;
+}
+#Frankenstein:hover ~ #Monster #MonsterText{
+ visibility: visible;
+ 
+  
+}
+#Jupiter {
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 40vh;
+  height: 10vh;
+  width: 15vw;
+  padding: 0.5vw;
+  background-color: white;
+  text-align: right;
+  
+}
+#tsunami{
+  position: absolute;
+  margin-left: 40vw;
+  margin-top: 40vh;
+  opacity: 0;
+  transition: 1s ease;
+}
+#jupHum {
+  visibility: hidden;
+  position: absolute;
+  z-index: -1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Jupiter:hover ~ #People {
+  margin-left: 50vw;
+  margin-top: 40vh;
+}
+#Jupiter:hover ~ #People #jupHum {
+ visibility: visible;
+}
+#Jupiter:hover ~ #tsunami {
+  opacity: 1;
+ }
+#Government {
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 25vw;
+  margin-top: 60vh;
+  height: 10vh;
+  width: 15vw;
+  padding: 0.5vw;
+  background-color: white;
+  text-align: right;
+}
+#cuffs{
+  position: absolute;
+  margin-left: 40vw;
+  margin-top: 60vh;
+  opacity: 0;
+  transition: 1s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#AuthHum{
+  opacity:0;
+  position: absolute;
+  transition: 1s, ease;
 }
-
-.App-link {
-  color: #61dafb;
+#Government:hover ~ #People {
+  margin-left: 50vw;
+  margin-top: 60vh;
 }
+#Government:hover ~ #People #AuthHum {
+  opacity: 1;
+}
+#Government:hover ~ #cuffs {
+  opacity: 1;
+}
+#Monster {
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 70vw;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 25vh;
+  height: 10vh;
+  width: 10vw;
+  background-color: white;
+  transition: 1s ease;
+}
+#People {
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 70vw;
+  margin-top: 55vh;
+  height: 10vh;
+  width: 10vw;
+  background-color: white;
+  transition: 1s ease;
 }

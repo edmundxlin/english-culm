@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/english-culm/static/css/main.5b867f47.chunk.css",
-    "main.js": "/english-culm/static/js/main.55e3cb0c.chunk.js",
-    "main.js.map": "/english-culm/static/js/main.55e3cb0c.chunk.js.map",
+    "main.js": "/english-culm/static/js/main.43e456f4.chunk.js",
+    "main.js.map": "/english-culm/static/js/main.43e456f4.chunk.js.map",
     "runtime-main.js": "/english-culm/static/js/runtime-main.e9ec541c.js",
     "runtime-main.js.map": "/english-culm/static/js/runtime-main.e9ec541c.js.map",
     "static/js/2.c0f4e8cf.chunk.js": "/english-culm/static/js/2.c0f4e8cf.chunk.js",
     "static/js/2.c0f4e8cf.chunk.js.map": "/english-culm/static/js/2.c0f4e8cf.chunk.js.map",
     "index.html": "/english-culm/index.html",
-    "precache-manifest.09bc7d869f29af8d9759f95dbe265af0.js": "/english-culm/precache-manifest.09bc7d869f29af8d9759f95dbe265af0.js",
+    "precache-manifest.988c31e5cce57d6ce7cc341a6ba48384.js": "/english-culm/precache-manifest.988c31e5cce57d6ce7cc341a6ba48384.js",
     "service-worker.js": "/english-culm/service-worker.js",
     "static/css/main.5b867f47.chunk.css.map": "/english-culm/static/css/main.5b867f47.chunk.css.map",
     "static/js/2.c0f4e8cf.chunk.js.LICENSE": "/english-culm/static/js/2.c0f4e8cf.chunk.js.LICENSE",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.e9ec541c.js",
     "static/js/2.c0f4e8cf.chunk.js",
     "static/css/main.5b867f47.chunk.css",
-    "static/js/main.55e3cb0c.chunk.js"
+    "static/js/main.43e456f4.chunk.js"
   ]
 }

@@ -24,7 +24,7 @@ function App() {
       <img src={require('./lightning.png')} width="100vw" height="100vh" alt="ln" id="lightning" />
       <div id="Government">
         <h2>Government</h2>
-        <p id="govtext">Governments enforce the law on the citizens, yet when NA countries are inclined to  punish instead of rehabilitate, </p>
+        <p id="govtext">Governments enforce the law on the citizens, yet when NA countries are inclined to  punish instead of rehabilitate they believe they themselves at a morally higher standpoint.</p>
       </div>
       <img src={require('./images.png')} width="100vw" height="100vh" alt="cuffs" id="cuffs" />
       <img src={require('./gun.png')} width="100vw" height="80vh" alt="gun" id="gun" />

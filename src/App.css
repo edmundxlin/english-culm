@@ -44,7 +44,7 @@
  opacity: 0;
   font-size: 0.8vw;
   
-  transition: 1s ease;
+  transition: 2s ease;
 }
 #fists{
   position: absolute;
@@ -125,7 +125,7 @@
   opacity: 0;
   position: absolute;
   z-index: -1;
-  transition: 1s ease;
+  transition: 2s ease;
 }
 #lightning {
   position: absolute;
@@ -179,7 +179,7 @@
 #AuthHum{
   opacity:0;
   position: absolute;
-  transition: 1s ease;
+  transition: 2s ease;
 }
 #Government:hover ~ #People {
   margin-left: 50vw;

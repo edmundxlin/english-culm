@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/english-culm/static/css/main.5b867f47.chunk.css",
+    "main.css": "/english-culm/static/css/main.98f6ae80.chunk.css",
     "main.js": "/english-culm/static/js/main.43e456f4.chunk.js",
     "main.js.map": "/english-culm/static/js/main.43e456f4.chunk.js.map",
     "runtime-main.js": "/english-culm/static/js/runtime-main.e9ec541c.js",
@@ -8,9 +8,9 @@
     "static/js/2.c0f4e8cf.chunk.js": "/english-culm/static/js/2.c0f4e8cf.chunk.js",
     "static/js/2.c0f4e8cf.chunk.js.map": "/english-culm/static/js/2.c0f4e8cf.chunk.js.map",
     "index.html": "/english-culm/index.html",
-    "precache-manifest.988c31e5cce57d6ce7cc341a6ba48384.js": "/english-culm/precache-manifest.988c31e5cce57d6ce7cc341a6ba48384.js",
+    "precache-manifest.ad09083e16588f43325c18cb4c291a0a.js": "/english-culm/precache-manifest.ad09083e16588f43325c18cb4c291a0a.js",
     "service-worker.js": "/english-culm/service-worker.js",
-    "static/css/main.5b867f47.chunk.css.map": "/english-culm/static/css/main.5b867f47.chunk.css.map",
+    "static/css/main.98f6ae80.chunk.css.map": "/english-culm/static/css/main.98f6ae80.chunk.css.map",
     "static/js/2.c0f4e8cf.chunk.js.LICENSE": "/english-culm/static/js/2.c0f4e8cf.chunk.js.LICENSE",
     "static/media/gun.png": "/english-culm/static/media/gun.ba4e3294.png",
     "static/media/lightning.png": "/english-culm/static/media/lightning.41a5bc5f.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9ec541c.js",
     "static/js/2.c0f4e8cf.chunk.js",
-    "static/css/main.5b867f47.chunk.css",
+    "static/css/main.98f6ae80.chunk.css",
     "static/js/main.43e456f4.chunk.js"
   ]
 }

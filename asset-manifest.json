@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/english-culm/static/css/main.3921e1d2.chunk.css",
-    "main.js": "/english-culm/static/js/main.4c19f680.chunk.js",
-    "main.js.map": "/english-culm/static/js/main.4c19f680.chunk.js.map",
+    "main.css": "/english-culm/static/css/main.7b1dd84c.chunk.css",
+    "main.js": "/english-culm/static/js/main.c968351e.chunk.js",
+    "main.js.map": "/english-culm/static/js/main.c968351e.chunk.js.map",
     "runtime-main.js": "/english-culm/static/js/runtime-main.e9ec541c.js",
     "runtime-main.js.map": "/english-culm/static/js/runtime-main.e9ec541c.js.map",
     "static/js/2.c0f4e8cf.chunk.js": "/english-culm/static/js/2.c0f4e8cf.chunk.js",
     "static/js/2.c0f4e8cf.chunk.js.map": "/english-culm/static/js/2.c0f4e8cf.chunk.js.map",
     "index.html": "/english-culm/index.html",
-    "precache-manifest.3164db76531027fb297c74b6c8a1b0cd.js": "/english-culm/precache-manifest.3164db76531027fb297c74b6c8a1b0cd.js",
+    "precache-manifest.4b508c736dc1dfdb32fb2d4fe48a9947.js": "/english-culm/precache-manifest.4b508c736dc1dfdb32fb2d4fe48a9947.js",
     "service-worker.js": "/english-culm/service-worker.js",
-    "static/css/main.3921e1d2.chunk.css.map": "/english-culm/static/css/main.3921e1d2.chunk.css.map",
+    "static/css/main.7b1dd84c.chunk.css.map": "/english-culm/static/css/main.7b1dd84c.chunk.css.map",
     "static/js/2.c0f4e8cf.chunk.js.LICENSE": "/english-culm/static/js/2.c0f4e8cf.chunk.js.LICENSE",
     "static/media/logo.svg": "/english-culm/static/media/logo.5d5d9eef.svg",
     "static/media/tsunami.png": "/english-culm/static/media/tsunami.41750844.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e9ec541c.js",
     "static/js/2.c0f4e8cf.chunk.js",
-    "static/css/main.3921e1d2.chunk.css",
-    "static/js/main.4c19f680.chunk.js"
+    "static/css/main.7b1dd84c.chunk.css",
+    "static/js/main.c968351e.chunk.js"
   ]
 }

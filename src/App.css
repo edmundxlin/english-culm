@@ -8,7 +8,25 @@
 .App h2{
   font-size: 3vh;
 }
+.App p {
+  font-size: 0.8vw;
+}
+#squig1{
+  position: absolute;
+  margin-top:30vh;
+  height: 30vh;
+  width: 15vw;
+  margin-left: 10vw;
 
+}
+#squig2{
+  position: absolute;
+
+  margin-top:30vh;
+  height: 30vh;
+  width: 15vw;
+  margin-left: 80vw;
+}
 #Frankenstein {
   display:inline-block ;
   position: absolute;
@@ -23,10 +41,10 @@
   transition: 0.5s ease;
 }
 #MonsterText{
-  visibility: hidden;
+ opacity: 0;
   font-size: 0.8vw;
- 
-  transition: 1s, ease;
+  
+  transition: 1s ease;
 }
 #fists{
   position: absolute;
@@ -44,16 +62,19 @@
 }
 
 #fText{
-  visibility: hidden;
-}
-#Frankenstein:hover #fText{
   visibility: visible;
 }
+
 #Frankenstein:hover ~ #Monster{
 
   margin-left: 50vw;
   margin-top: 20vh;
   height: 20vh;
+}
+
+#Frankenstein:hover ~ #Monster #MonsterText{
+
+  opacity:1;
 }
 #Frankenstein:hover ~ #fists{
   opacity:1;
@@ -86,7 +107,7 @@
   position: absolute;
   margin-left: 25vw;
   margin-top: 40vh;
-  height: 10vh;
+  height: 15vh;
   width: 15vw;
   padding: 0.5vw;
   background-color: white;
@@ -101,9 +122,10 @@
   transition: 1s ease;
 }
 #jupHum {
-  visibility: hidden;
+  opacity: 0;
   position: absolute;
   z-index: -1;
+  transition: 1s ease;
 }
 #lightning {
   position: absolute;
@@ -121,7 +143,7 @@
   margin-top: 40vh;
 }
 #Jupiter:hover ~ #People #jupHum {
- visibility: visible;
+ opacity: 1;
 }
 #Jupiter:hover ~ #tsunami {
   animation: fistsanim;
@@ -133,7 +155,7 @@
   
   margin-left: 25vw;
   margin-top: 60vh;
-  height: 10vh;
+  height: 5vh;
   width: 15vw;
   padding: 0.5vw;
   background-color: white;
@@ -157,7 +179,7 @@
 #AuthHum{
   opacity:0;
   position: absolute;
-  transition: 1s, ease;
+  transition: 1s ease;
 }
 #Government:hover ~ #People {
   margin-left: 50vw;
